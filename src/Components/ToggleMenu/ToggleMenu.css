@@ -1,0 +1,9 @@
+
+.menu{
+    width: 15vw;
+    height: 10vh;
+    background-color: grey;
+    color:black;
+    display:flex;
+    position:absolute;
+}

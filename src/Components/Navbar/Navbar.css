@@ -1,0 +1,41 @@
+.NavBar__MainWrapper{
+    display:flex;
+    width: 100vw;
+    height: 10vh;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom:solid;
+}
+
+.NavBar__LinksWrapper{
+    display:flex;
+    width: 35vw;
+    height: 10vh;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.NavBar__SearchWrapper{
+    display:flex;
+    width: 10vw;
+    height: 10vh;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.NavBar__MainWrapper a{
+
+    color:var(--color-text);
+    font-size: var(--text-size);
+    font-weight: var(--font-weight);
+    font-family: var(--font-family);
+}
+
+.NavBar__LogoWrapper logo{
+    padding-left: 5px;
+    
+}
+
+.NavBar__LogoWrapper{
+    width: auto;
+}
